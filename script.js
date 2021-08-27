@@ -5,9 +5,9 @@ var message = document.querySelector("#error-message");
 
 btnCheck.addEventListener("click", function a() {
     message.style.display = "none";
-    if (billAmount.value > 0) {
-        if (amountGiven.value >= billAmount.value) {
-            alert("HI    " + amountGiven.value + billAmount.value);
+    if (Number(billAmount.value) > 0) {
+        if (Number(amountGiven.value) >= Number(billAmount.value)) {
+
 
         } else {
             displayErrorMessage("Amount Given Should Be Atleast Equal To Bill Amount");
