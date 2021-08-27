@@ -1,19 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body {
+    font-family: 'Lobster', cursive;
+}
+
 .container {
     display: flex;
     flex-direction: column;
     width: 500px;
     margin: auto;
-    margin-top: 13rem;
 }
 
 h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aliceblue;
 }
 
 #change-table {
     margin: 2rem;
     padding: 0.2rem;
     border: 1.5px solid black;
+    background-color: aliceblue;
 }
 
 th,
@@ -27,5 +32,18 @@ td {
     width: 5rem;
     margin: auto;
     font-weight: bold;
-    padding: 0.2rem;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    background-color: rgb(199, 245, 230);
+    border-radius: 0.5rem;
+    border: 0.5px;
+    cursor: pointer;
+}
+
+#error-message {
+    background-color: aliceblue;
+}
+
+.cash-img {
+    max-width: 400px;
 }
