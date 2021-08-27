@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 body {
-    font-family: 'Lobster', cursive;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #B45309;
+    color: #FDE68A;
 }
 
 .container {
@@ -10,15 +11,10 @@ body {
     margin: auto;
 }
 
-h1 {
-    background-color: aliceblue;
-}
-
 #change-table {
     margin: 2rem;
     padding: 0.2rem;
     border: 1.5px solid black;
-    background-color: aliceblue;
 }
 
 th,
@@ -40,10 +36,4 @@ td {
     cursor: pointer;
 }
 
-#error-message {
-    background-color: aliceblue;
-}
-
-.cash-img {
-    max-width: 400px;
-}
+footer {}
