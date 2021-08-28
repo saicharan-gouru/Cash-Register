@@ -37,3 +37,14 @@ td {
     border: 0.5px;
     cursor: pointer;
 }
+
+input,
+label {
+    display: block;
+    margin-bottom: 0.2rem;
+    margin-left: 6rem;
+}
+
+input {
+    width: 60%;
+}
