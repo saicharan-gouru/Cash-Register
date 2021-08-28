@@ -11,6 +11,7 @@ body {
     flex-direction: column;
     width: 500px;
     margin: auto;
+    margin-top: 10%;
 }
 
 #change-table {
@@ -47,4 +48,11 @@ label {
 
 input {
     width: 60%;
+}
+
+#moving-header {
+    font-size: 1.5rem;
+    overflow: hidden;
+    position: relative;
+    margin-top: 0.2rem;
 }
